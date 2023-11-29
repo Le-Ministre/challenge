@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color:darkslategray;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bntHaut{
+    display: flex;
+    justify-content: center;
+}
+.btnRed{
+    width: 40px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    color: red;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+.btnOrange{
+    width: 40px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    color: orange;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.leScort{
+    color: white;
+    font-size: 18pxa;
+}
+.lesCrois{
+    font-size: 20px;
+    position: relative;
+}
+.lesRons{
+    font-size: 20px;
+    position: relative;
+}
+.lesP1{
+    position: relative;
+    bottom: 13px;
+}
+.lesMe{
+    position: relative;
+    bottom: 13px;
+}
+.return{
+    background-color: white;
+    width: 35px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.fa-solid{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 6px;
+
+}
+.lesBtn{
+    margin-top: 30px;
+}
+.first button{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: none; 
+    margin-top: 5px;
+    margin-left: 2px;
+    background: linear-gradient(rgba(66, 66, 190, 0.623) ,blue);
+}
+.foiss{
+    font-size: 30px;
+    color: red;
+}
+.rondel{
+    font-size: 30px;
+    color: orange;
+}
+.vide1{
+    position: relative;
+    top: 15px;
+}
+.vide2{
+    position: relative;
+    bottom: 15px;
+}
